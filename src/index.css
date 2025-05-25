@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=DotGothic16&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0F0F1A;
+}
+
+.text-shadow-neon {
+  text-shadow: 0 0 5px currentColor, 0 0 10px currentColor, 0 0 15px currentColor;
+}
+
+.button-glow {
+  transition: all 0.3s ease-in-out;
+}
+
+.button-glow:hover {
+  box-shadow: 0 0 5px currentColor, 0 0 10px currentColor, 0 0 15px currentColor;
+}
+
+.emoji-button {
+  @apply bg-dark-bg border-2 border-neon-purple text-white p-2 rounded-lg transition-all duration-200;
+}
+
+.emoji-button:hover {
+  @apply bg-dark-accent border-[#00FFFF] transform scale-105;
+  box-shadow: 0 0 10px #00FFFF;
+}
+
+.emoji-button.selected {
+  @apply bg-dark-purple border-neon-pink;
+  box-shadow: 0 0 15px #FF69B4;
+} 
