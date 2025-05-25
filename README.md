@@ -1,4 +1,4 @@
-# Our Little Garden - A Love Communication Portal
+# Our Little Greivance Garden - A Love Communication Portal
 
 A beautiful, neon-themed web application for sharing thoughts, feelings, and little moments of love. This project was created to improve communication and strengthen relationships through a fun, interactive interface.
 
